@@ -1,0 +1,16 @@
+﻿<Window x:Class="licenseapp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:licenseapp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="320" Width="349" 
+        WindowStyle="None"
+        ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Background="WhiteSmoke">
+    <Grid Height="350">
+        <Button Content="مشاهده آنلاین" FontFamily="Segoe UI Black"  HorizontalAlignment="Center" Margin="0,198,0,0" VerticalAlignment="Top" Height="40" Width="330"  Background="AliceBlue" Click="click1"/>
+        <Button Content="بررسی لایسنس" FontFamily="Segoe UI Black" HorizontalAlignment="Center" Margin="0,260,0,0" VerticalAlignment="Top" Height="40" Width="330" Background="AliceBlue" Click="click2"/>
+        <TextBox HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="NoWrap"  Width="330" Height="40" Text="لایسنس را وارد کنید" FontFamily="Segoe UI Black" TextAlignment="Right" RenderTransformOrigin="0.5,0.5" Margin="0,55,0,0" Padding=" 0,10,10,0" Name="textbox" GotFocus="focus"/>
+    </Grid>
+</Window>

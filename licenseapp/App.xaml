@@ -1,0 +1,9 @@
+﻿<Application x:Class="licenseapp.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:licenseapp"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <FontFamily x:Key="vazir">pack://application:,,,/vazir/#Vazir</FontFamily>
+    </Application.Resources>
+</Application>
